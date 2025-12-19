@@ -1,0 +1,6 @@
+source $VRINDAVAN_PATH/default/bash/shell
+source $VRINDAVAN_PATH/default/bash/aliases
+source $VRINDAVAN_PATH/default/bash/functions
+source $VRINDAVAN_PATH/default/bash/init
+source $VRINDAVAN_PATH/default/bash/envs
+[[ $- == *i* ]] && bind -f $VRINDAVAN_PATH/default/bash/inputrc
