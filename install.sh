@@ -1,5 +1,5 @@
 # Exit immediately if a command exits with a non-zero status
-set -eEo pipefail
+set -eEox pipefail
 
 # Define locations
 export VRINDAVAN_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
