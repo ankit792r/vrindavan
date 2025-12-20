@@ -20,5 +20,4 @@ run_logged $VRINDAVAN_INSTALL/configs/hardware/usb-autosuspend.sh
 run_logged $VRINDAVAN_INSTALL/configs/hardware/ignore-power-button.sh
 run_logged $VRINDAVAN_INSTALL/configs/hardware/nvidia.sh
 run_logged $VRINDAVAN_INSTALL/configs/hardware/fix-f13-amd-audio-input.sh
-run_logged $VRINDAVAN_INSTALL/configs/hardware/fix-bcm43xx.sh
 run_logged $VRINDAVAN_INSTALL/configs/hardware/fix-surface-keyboard.sh

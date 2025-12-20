@@ -1,6 +1,10 @@
-# Copy over Vrindavan configs
+# Link Vrindavan configs
 mkdir -p ~/.config
-cp -R $VRINDAVAN_PATH/configs/* ~/.config/
+for item in $VRINDAVAN_PATH/configs/*; do
+    if [ -e "$item" ]; then
+        ln -sfn "$item" ~/.config/$(basename "$item")
+    fi
+done
 
 # Use default bashrc from Vrindavan
-cp $VRINDAVAN_PATH/default/bashrc ~/.bashrc
+ln -sfn $VRINDAVAN_PATH/default/bashrc ~/.bashrc

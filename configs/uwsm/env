@@ -1,0 +1,11 @@
+# Changes require a restart to take effect.
+
+# Ensure Omarchy bins are in the path
+export VRINDAVAN_PATH=$HOME/vrindavan
+export PATH=$VRINDAVAN_PATH/bin:$PATH
+
+# Set default terminal and editor
+source ~/.config/uwsm/default
+
+# Activate mise if present on the system
+mise activate bash
