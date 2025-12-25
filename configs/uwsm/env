@@ -6,6 +6,3 @@ export PATH=$VRINDAVAN_PATH/bin:$PATH
 
 # Set default terminal and editor
 source ~/.config/uwsm/default
-
-# Activate mise if present on the system
-mise activate bash

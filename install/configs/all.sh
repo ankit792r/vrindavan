@@ -4,7 +4,6 @@ run_logged $VRINDAVAN_INSTALL/configs/gpg.sh
 run_logged $VRINDAVAN_INSTALL/configs/increase-sudo-tries.sh
 run_logged $VRINDAVAN_INSTALL/configs/increase-lockout-limit.sh
 run_logged $VRINDAVAN_INSTALL/configs/ssh-flakiness.sh
-run_logged $VRINDAVAN_INSTALL/configs/mise-work.sh
 run_logged $VRINDAVAN_INSTALL/configs/fix-powerprofilesctl-shebang.sh
 run_logged $VRINDAVAN_INSTALL/configs/docker.sh
 run_logged $VRINDAVAN_INSTALL/configs/mimetypes.sh
