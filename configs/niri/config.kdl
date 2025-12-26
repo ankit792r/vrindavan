@@ -112,8 +112,6 @@ binds {
     Mod+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
     Mod+Backspace hotkey-overlay-title="Show logout menu: wlogout" { spawn "wlogout"; }
 
-    Mod+Alt+Space hotkey-overlay-title="Launch Menu" { spawn-sh "launch-menu" };
-
     Mod+Alt+S allow-when-locked=true hotkey-overlay-title=null { spawn-sh "pkill orca || exec orca"; }
 
     XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+"; }

@@ -1,5 +1,3 @@
-@import "../vrindavan/current/theme/waybar.css";
-
 * {
   background-color: @background;
   color: @foreground;
@@ -7,7 +5,7 @@
   border: none;
   border-radius: 0;
   min-height: 0;
-  font-family: 'JetBrains Mono NL';
+  font-family: 'JetBrains Mono Nerd';
   font-size: 14px;
 }
 

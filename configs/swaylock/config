@@ -1,6 +1,7 @@
-ignore-empty-password
-show-failed-attempts
+# Swaylock Configuration
+# Beautiful lock screen with blurred background
 
+ignore-empty-password
 clock
 
 font=JetBrainsMono Nerd Font
@@ -8,11 +9,10 @@ timestr=%H:%M
 datestr=%d
 
 # Background
-image=~/.config/vrindavan/current/theme/backgrounds/1*
-
+image=~/Downloads/radha-krishna-01.jpg
 effect-blur=2x2
 
 indicator
 indicator-radius=100
 
-
+show-failed-attempts

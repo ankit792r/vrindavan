@@ -1,1 +1,0 @@
-/home/ankit/vrindavan/default/elephant/omarchy_themes.lua
