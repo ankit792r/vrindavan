@@ -1,4 +1,4 @@
-@import "../vrindavan/theme/waybar.css";
+@import "../vrindavan/current/theme/waybar.css";
 
 * {
   background-color: @background;
@@ -7,77 +7,93 @@
   border: none;
   border-radius: 0;
   min-height: 0;
-  font-family: 'JetBrainsMono Nerd Font';
-  font-size: 12px;
+  font-family: 'JetBrains Mono NL';
+  font-size: 14px;
 }
 
-.modules-left {
-  margin-left: 8px;
+window#waybar {
+  background-color: transparent;
+  color: #ffffff;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
-.modules-right {
-  margin-right: 8px;
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+button {
+  border: none;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#workspaces {
+  margin: 0 6px;
 }
 
 #workspaces button {
-  all: initial;
-  padding: 0 6px;
-  margin: 0 1.5px;
-  min-width: 9px;
+  padding: 0 8px;
+  background: none;
 }
 
-#workspaces button.empty {
-  opacity: 0.5;
+#workspaces button.active {
+  border-bottom: 2px solid #ffffff;
 }
 
-#cpu,
+#workspaces button.urgent {
+  border-bottom: 2px solid #ff4444;
+}
+
+#workspaces button:hover {
+  color: #ffffff;
+}
+
+/* Window title (optional styling) */
+#window {
+  padding: 0 10px;
+}
+
+/* Modules (Right side) */
+#clock,
 #battery,
-#pulseaudio,
-#custom-omarchy,
-#custom-screenrecording-indicator,
-#custom-update {
-  min-width: 12px;
-  margin: 0 7.5px;
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio {
+  padding: 0 10px;
+}
+
+
+#battery.charging,
+#battery.plugged {
+  background-color: #98971a;
+  color: #ebdbb2;
+}
+
+#battery.critical:not(.charging) {
+  background-color: #cc241d;
+  color: #ffffff;
+}
+
+#battery.warning:not(.charging) {
+  background-color: #d79921;
+  color: #32302f;
 }
 
 #tray {
-  margin-right: 16px;
+  background-color: transparent;
+  padding: 0 10px;
+  margin: 0 2px;
 }
-
-#bluetooth {
-  margin-right: 17px;
-}
-
-#network {
-  margin-right: 13px;
-}
-
-#custom-expand-icon {
-  margin-right: 18px;
-}
-
-tooltip {
-  padding: 2px;
-}
-
-#custom-update {
-  font-size: 10px;
-}
-
-#clock {
-  margin-left: 8.75px;
-}
-
-.hidden {
-  opacity: 0;
-}
-
-#custom-screenrecording-indicator {
-  min-width: 12px;
-  margin-left: 8.75px;
-  font-size: 10px;
-}
-
-#custom-screenrecording-indicator.active {
-  color: #a55555;
+#tray>.needs-attention {
+  color: #cc241d;
+  border-bottom-color: #cc241d;
 }

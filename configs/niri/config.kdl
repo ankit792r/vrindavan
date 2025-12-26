@@ -43,8 +43,15 @@ layout {
 
     default-column-width { proportion 0.5; }
     focus-ring {
+	    off
         width 2
         active-color "#23567d"
+    }
+
+    border {
+	 width 2
+        active-color "#23567d"
+
     }
 
     background-color "transparent"
@@ -59,18 +66,19 @@ layout {
 
 spawn-at-startup "waybar"
 spawn-at-startup "mako"
-spawn-sh-at-startup "swaybg -i ~/Vaikuntha/images/devote/04.jpg -m fill"
+spawn-sh-at-startup "swaybg -i ~/.config/vrindavan/current/theme/backgrounds/1* -m fill"
 
-screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+screenshot-path "~/pictures/screenshots/screenshot from %Y-%m-%d %H-%M-%S.png"
 
 overview {
-   zoom 0.5
+   zoom 0.6
    workspace-shadow {
 	   off
    }
 }
 
 window-rule {
+   draw-border-with-background false
    opacity 0.9
 }
 

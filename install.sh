@@ -8,7 +8,7 @@ export VRINDAVAN_INSTALL_LOG_FILE="/var/log/vrindavan-install.log"
 export PATH="$VRINDAVAN_PATH/bin:$PATH"
 
 mkdir -p $HOME/.config/vrindavan
-export VRINDAVAN_STATE="$HOME/.config/vrindavan"
+export VRINDAVAN_CONFIG="$HOME/.config/vrindavan"
 
 # Install
 source "$VRINDAVAN_INSTALL/helpers/all.sh"

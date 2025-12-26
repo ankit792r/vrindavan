@@ -2,7 +2,6 @@
 # This file is also used by the ISO builder when determining needs
 
 alacritty
-avahi
 bash-completion
 bat
 bluetui
@@ -17,15 +16,10 @@ cups-pdf
 docker
 docker-buildx
 docker-compose
-dust
 evince
 exfatprogs
 expac
-eza
 fastfetch
-fcitx5
-fcitx5-gtk
-fcitx5-qt
 fd
 ffmpegthumbnailer
 fontconfig
@@ -52,7 +46,6 @@ inetutils
 inxi
 iwd
 jq
-kvantum-qt5
 lazydocker
 lazygit
 less
@@ -71,10 +64,10 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
-nss-mdns
 nvim
 pamixer
 plocate
+pavucontrol
 polkit-gnome
 postgresql-libs
 power-profiles-daemon
@@ -84,10 +77,7 @@ ripgrep
 rust
 satty
 sddm
-signal-desktop
 slurp
-starship
-sushi
 swaybg
 swayosd
 system-config-printer

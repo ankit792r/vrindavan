@@ -8,7 +8,6 @@ run_logged $VRINDAVAN_INSTALL/configs/fix-powerprofilesctl-shebang.sh
 run_logged $VRINDAVAN_INSTALL/configs/docker.sh
 run_logged $VRINDAVAN_INSTALL/configs/mimetypes.sh
 run_logged $VRINDAVAN_INSTALL/configs/localdb.sh
-run_logged $VRINDAVAN_INSTALL/configs/walker-elephant.sh
 run_logged $VRINDAVAN_INSTALL/configs/fast-shutdown.sh
 run_logged $VRINDAVAN_INSTALL/configs/sudoless-asdcontrol.sh
 run_logged $VRINDAVAN_INSTALL/configs/hardware/network.sh
