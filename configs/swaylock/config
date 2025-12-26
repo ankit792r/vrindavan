@@ -1,0 +1,18 @@
+ignore-empty-password
+show-failed-attempts
+
+clock
+
+font=JetBrainsMono Nerd Font
+timestr=%H:%M
+datestr=%d
+
+# Background
+image=~/.config/vrindavan/current/theme/backgrounds/1*
+
+effect-blur=2x2
+
+indicator
+indicator-radius=100
+
+
